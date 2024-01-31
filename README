@@ -36,13 +36,13 @@ if LoadingScreen ~= false then
     Loading.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     Loading.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     Loading.DisplayOrder = 999999999
-    MainFrame.Name = "kokoska1234577"
+    MainFrame.Name = "MainFrame"
     MainFrame.Parent = Loading
     MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     MainFrame.BorderSizePixel = 0
     MainFrame.Position = UDim2.new(-0.125662372, 0, -0.125935167, 0)
     MainFrame.Size = UDim2.new(1.25, 0, 1.25, 0)
-    Title.Name = "kokoska1234577"
+    Title.Name = "Title"
     Title.Parent = MainFrame
     Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Title.BackgroundTransparency = 1.000
@@ -54,71 +54,71 @@ if LoadingScreen ~= false then
     Title.TextScaled = true
     Title.TextSize = 14.000
     Title.TextWrapped = true
-    Dots.Name = "kokoska1234577"
+    Dots.Name = "Dots"
     Dots.Parent = MainFrame
     Dots.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Dots.BackgroundTransparency = 1.000
     Dots.Position = UDim2.new(0.470970035, 0, 0.818612278, 0)
     Dots.Size = UDim2.new(0.0571707934, 0, 0.0360675976, 0)
-    Dot1.Name = "kokoska1234577"
-    Dot1.Parent = kokoska1234577
+    Dot1.Name = "Dot1"
+    Dot1.Parent = Dots
     Dot1.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     Dot1.Position = UDim2.new(0.0611661971, 0, 0.234447539, 0)
     Dot1.Size = UDim2.new(0.159291148, 0, 0.51158762, 0)
     UICorner.CornerRadius = UDim.new(0.5, 0)
-    UICorner.Parent = kokoska1234577
-    InsideDot.Name = "kokoska1234577"
-    InsideDot.Parent = kokoska1234577
+    UICorner.Parent = Dot1
+    InsideDot.Name = "InsideDot"
+    InsideDot.Parent = Dot1
     InsideDot.AnchorPoint = Vector2.new(0.5, 0.5)
     InsideDot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     InsideDot.Position = UDim2.new(0.5, 0, 0.5, 0)
     UICorner_2.CornerRadius = UDim.new(0.5, 0)
-    UICorner_2.Parent = kokoska1234577
-    Dot2.Name = "kokoska1234577"
-    Dot2.Parent = kokoska1234577
+    UICorner_2.Parent = InsideDot
+    Dot2.Name = "Dot2"
+    Dot2.Parent = Dots
     Dot2.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     Dot2.Position = UDim2.new(0.419989735, 0, 0.234447539, 0)
     Dot2.Size = UDim2.new(0.159291148, 0, 0.51158762, 0)
     UICorner_3.CornerRadius = UDim.new(0.5, 0)
-    UICorner_3.Parent = kokoska1234577
-    InsideDot_2.Name = "kokoska1234577"
-    InsideDot_2.Parent = kokoska1234577
+    UICorner_3.Parent = Dot2
+    InsideDot_2.Name = "InsideDot"
+    InsideDot_2.Parent = Dot2
     InsideDot_2.AnchorPoint = Vector2.new(0.5, 0.5)
     InsideDot_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     InsideDot_2.Position = UDim2.new(0.5, 0, 0.5, 0)
     UICorner_4.CornerRadius = UDim.new(0.5, 0)
-    UICorner_4.Parent = kokoska1234577
-    Dot3.Name = "kokoska1234577"
-    Dot3.Parent = kokoska1234577
+    UICorner_4.Parent = InsideDot_2
+    Dot3.Name = "Dot3"
+    Dot3.Parent = Dots
     Dot3.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     Dot3.Position = UDim2.new(0.778813243, 0, 0.234447539, 0)
     Dot3.Size = UDim2.new(0.159291148, 0, 0.51158762, 0)
     UICorner_5.CornerRadius = UDim.new(0.5, 0)
-    UICorner_5.Parent = kokoska1234577
-    InsideDot_3.Name = "kokoska1234577"
-    InsideDot_3.Parent = kokoska1234577
+    UICorner_5.Parent = Dot3
+    InsideDot_3.Name = "InsideDot"
+    InsideDot_3.Parent = Dot3
     InsideDot_3.AnchorPoint = Vector2.new(0.5, 0.5)
     InsideDot_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     InsideDot_3.Position = UDim2.new(0.5, 0, 0.5, 0)
     UICorner_6.CornerRadius = UDim.new(0.5, 0)
-    UICorner_6.Parent = kokoska1234577
-    Bar.Name = "kokoska1234577"
+    UICorner_6.Parent = InsideDot_3
+    Bar.Name = "Bar"
     Bar.Parent = MainFrame
     Bar.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
     Bar.BorderSizePixel = 0
     Bar.Position = UDim2.new(0.219547689, 0, 0.764966607, 0)
     Bar.Size = UDim2.new(0.560904443, 0, 0.0365853645, 0)
-    Bar2.Name = "kokoska1234577"
-    Bar2.Parent = kokoska1234577
+    Bar2.Name = "Bar2"
+    Bar2.Parent = Bar
     Bar2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
     Bar2.BorderSizePixel = 0
     Bar2.Size = UDim2.new(0, 0, 1, 0)
     UICorner_7.CornerRadius = UDim.new(0.5, 0)
-    UICorner_7.Parent = kokoska1234577
+    UICorner_7.Parent = Bar2
     UICorner_8.CornerRadius = UDim.new(0.5, 0)
-    UICorner_8.Parent = kokoska1234577
-    Percentage.Name = "kokoska1234577"
-    Percentage.Parent = kokoska1234577
+    UICorner_8.Parent = Bar
+    Percentage.Name = "Percentage"
+    Percentage.Parent = Bar
     Percentage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Percentage.BackgroundTransparency = 1.000
     Percentage.Position = UDim2.new(0.280816972, 0, 0.0909090936, 0)
@@ -129,39 +129,39 @@ if LoadingScreen ~= false then
     Percentage.TextScaled = true
     Percentage.TextSize = 14.000
     Percentage.TextWrapped = true
-    Tip.Name = "kokoska1234577"
-    Tip.Parent = kokoska1234577
+    Tip.Name = "Tip"
+    Tip.Parent = MainFrame
     Tip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Tip.BackgroundTransparency = 1.000
     Tip.Position = UDim2.new(0.280816913, 0, 0.717294872, 0)
     Tip.Size = UDim2.new(0.438366145, 0, 0.0299334861, 0)
     Tip.Font = Enum.Font.SourceSansItalic
-    Tip.Text = "kokoska1234577"
+    Tip.Text = ""
     Tip.TextColor3 = Color3.fromRGB(138, 138, 138)
     Tip.TextScaled = true
     Tip.TextSize = 14.000
     Tip.TextWrapped = true
-    EndSequence.Name = "kokoska1234577"
+    EndSequence.Name = "EndSequence"
     EndSequence.Parent = Loading
     EndSequence.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     EndSequence.BorderSizePixel = 0
     EndSequence.Position = UDim2.new(1, 0, 0, 0)
     EndSequence.Size = UDim2.new(1, 0, 1, 0)
     local function NGZQAMK_fake_script()
-        local script = Instance.new("LocalScript", kokoska1234577)
+        local script = Instance.new("LocalScript", Dots)
         while true do
             wait(0.25)
-            script.Parent.kokoska1234577.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0.25, true)
+            script.Parent.Dot1.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0.25, true)
             wait(0.25)
-            script.Parent.kokoska1234577.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0.25, true)
+            script.Parent.Dot2.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0.25, true)
             wait(0.25)
-            script.Parent.kokoska1234577.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0.25, true)
+            script.Parent.Dot3.InsideDot:TweenSize(UDim2.new(1, 0, 1, 0), "In", "Sine", 0.25, true)
             wait(0.25)
-            script.Parent.kokoska1234577.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0.25, true)
+            script.Parent.Dot1.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0.25, true)
             wait(0.25)
-            script.Parent.kokoska1234577.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0.25, true)
+            script.Parent.Dot2.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0.25, true)
             wait(0.25)
-            script.Parent.kokoska1234577.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0.25, true)
+            script.Parent.Dot3.InsideDot:TweenSize(UDim2.new(0, 0, 0, 0), "In", "Sine", 0.25, true)
         end
     end
 
